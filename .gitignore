@@ -1,0 +1,6 @@
+env_ds.csv
+core
+readonly/
+ipynb_checkpoints/
+.ipynb_checkpoints/
+env_df.csv
