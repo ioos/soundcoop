@@ -1,0 +1,13 @@
+name: soundcoop
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - hvplot
+  - geopandas
+  - matplotlib
+  - numpy
+  - pandas
+  - rioxarray
+  - shapely
+  - xarray
