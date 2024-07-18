@@ -3,9 +3,12 @@ channels:
   - default
   - conda-forge
 dependencies:
+  - dask
   - hvplot
   - geopandas
+  - geoviews
   - matplotlib
+  - netcdf4
   - numpy
   - pandas
   - rioxarray
