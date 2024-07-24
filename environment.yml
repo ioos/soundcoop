@@ -7,10 +7,12 @@ dependencies:
   - hvplot
   - geopandas
   - geoviews
+  - ipykernel
   - matplotlib
   - netcdf4
   - numpy
   - pandas
+  - python=3.9
   - rioxarray
   - shapely
   - xarray
