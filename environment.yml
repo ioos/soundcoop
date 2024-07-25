@@ -8,11 +8,17 @@ dependencies:
   - geopandas
   - geoviews
   - ipykernel
+  - ipywidgets
   - matplotlib
+  - minio
   - netcdf4
   - numpy
   - pandas
+  - pip
+  - pvlib
   - python=3.9
   - rioxarray
   - shapely
   - xarray
+  - pip:
+    - lifewatch-pypam==0.3.0

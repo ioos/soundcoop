@@ -1,3 +1,4 @@
+data/**/
 *.csv
 *.nc
 core
