@@ -35,11 +35,3 @@ Several additional notebooks are included in this repository to demonstrate how 
 **download_ESONS_from_rw**: This notebook shows how to access HMD netCDF files recorded at the ESONS listening site from the Axiom Data Science Research Workspace
 
 **download_JOMOPANS_from_re**: This notebook shows how to access one-third octave sound levels recorded at a listening site in the North Sea as part of the [JOMOPANS project](https://northsearegion.eu/jomopans/). Originally accessed from the [ICES database](https://www.ices.dk/data/data-portals/Pages/Continuous-Noise.aspx), the HDF files were translated into netCDF and are hosted on the Axiom Data Science Research Workspace
-
-* https://soundcoop.portal.axds.co/#soundcoop/datasets/Monh?station=130601&sound_dataset=Monh&start_date_time=2021-10-13T13:16:46.583Z&end_date_time=2021-12-01T07:28:18.297Z&min_frequency=29&max_frequency=23928
-* erddap_dataset = 'gov-ndbc-44007'
-* sound_dataset = 'Monh'
-* start_date_time = '2021-10-20T20:11:53.211'
-* end_date_time = '2021-12-01T07:28:18.297'
-* min_frequency = 20
-* max_frequency = 23928
