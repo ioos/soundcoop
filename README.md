@@ -36,4 +36,4 @@ Several additional notebooks are included in this repository to demonstrate how 
 
 **download_ESONS_from_rw**: This notebook shows how to access HMD netCDF files recorded at the ESONS listening site from the Axiom Data Science Research Workspace
 
-**download_JOMOPANS_from_re**: This notebook shows how to access one-third octave sound levels recorded at a listening site in the North Sea as part of the [JOMOPANS project](https://northsearegion.eu/jomopans/). Originally accessed from the [ICES database](https://www.ices.dk/data/data-portals/Pages/Continuous-Noise.aspx), the HDF files were translated into netCDF and are hosted on the Axiom Data Science Research Workspace
+**download_JOMOPANS_from_rw**: This notebook shows how to access one-third octave sound levels recorded at a listening site in the North Sea as part of the [JOMOPANS project](https://northsearegion.eu/jomopans/). Originally accessed from the [ICES database](https://www.ices.dk/data/data-portals/Pages/Continuous-Noise.aspx), the HDF files were translated into netCDF and are hosted on the Axiom Data Science Research Workspace
