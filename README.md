@@ -34,7 +34,7 @@ Several additional notebooks are included in this repository to demonstrate how 
 ## Running the Notebooks
 The notebooks were built so they could run in free environments such as [MyBinder](https://mybinder.org/), [Google Colab](https://colab.research.google.com/), and [JupyterLab](https://jupyter.org/), meaning they aimed to have low requirements for RAM an CPU. The tradeoff is a reduced amount of data to view and process. These notebooks are for demonstration purposes and can serve as the foundation for large scale processing that is typical of passive acoustic data analyses. 
 
-Please review the limitations of the processing environments noted above
+Please review the content in the following links regarding the processing environments noted above
 * [Usage guidelines for MyBinder](https://mybinder.readthedocs.io/en/latest/about/user-guidelines.html)
 * [Quotas and limites for Google Colab](https://cloud.google.com/colab/docs/quotas)
 * [Some info on JupyterLab 4.0 set up and environment](https://lwn.net/Articles/936340/)
