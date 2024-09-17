@@ -40,5 +40,5 @@ Please review the following content on the processing environments noted above
 * [Some info on JupyterLab 4.0 set up and environment](https://lwn.net/Articles/936340/)
 * [JupyterLab Desktop](https://github.com/jupyterlab/jupyterlab-desktop), which takes advantage of your local machine's memory allocations and processing capabilities
   
-An environment yaml file is provided to ensure that the jupyter notebooks can be run without issues related to system and library dependencies.
+An environment yaml file is provided to ensure that the notebooks can be run without issues related to system and library dependencies.
 
