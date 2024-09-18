@@ -1,2 +1,2 @@
 #!/bin/bash
-python download_data.py
+python ./2_analysis_of_HMD_pypam/download_data.py
