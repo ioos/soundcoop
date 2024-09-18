@@ -162,6 +162,7 @@ matplotlib==3.9.1
     #   seaborn
 mbari-pbp==1.2.2
     # via -r requirements.in
+minio==7.2.8
 more-itertools==10.3.0
     # via jaraco-classes
 msgpack==1.0.8
