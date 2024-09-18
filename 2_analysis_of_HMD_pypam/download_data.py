@@ -27,8 +27,6 @@ def download_data_station(station_name, client_obj, bucket_str, prefix_str, data
             else: 
                 print('Ignored: ' + path_name)
         ct += 1
-    return ds3
-
 
 if __name__ == '__main__':
     local_path = './2_analysis_of_HMD_pypam/data'
