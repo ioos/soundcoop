@@ -31,7 +31,7 @@ def download_data_station(station_name, client_obj, bucket_str, prefix_str, data
 
 
 if __name__ == '__main__':
-    local_path = './data'
+    local_path = './2_analysis_of_HMD_pypam/data'
     # Set up the download for MARS data
     client = minio.Minio( "s3.us-west-2.amazonaws.com", secure=False)
     
