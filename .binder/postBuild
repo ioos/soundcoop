@@ -1,2 +1,3 @@
 #!/bin/bash
+pip install -r ./requirements.txt
 python ./2_analysis_of_HMD_pypam/download_data.py
