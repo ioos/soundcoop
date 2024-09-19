@@ -37,7 +37,6 @@ Jupyter notebooks were created to demonstrate how to access data from different 
   + Note: a limited number of recorded days (~20) are recommended to avoid memory issues during processing. If more days are desired for your analysis, ensure your compute environment has enough RAM and CPU/GPU
 
 ## Running the Notebooks
--------
 The notebooks were built so they could run in free environments such as [MyBinder](https://mybinder.org/), [Google Colab](https://colab.research.google.com/), and [JupyterLab](https://jupyter.org/), meaning they aimed to have low requirements for RAM an CPU. The tradeoff is a reduced amount of data to view and process. These notebooks are for demonstration purposes and can serve as the foundation for large scale processing that is typical of passive acoustic data analyses. 
 
 Please review the following content on the processing environments noted above
