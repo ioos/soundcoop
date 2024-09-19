@@ -21,6 +21,7 @@ cachecontrol[filecache]==0.14.0
     # via poetry
 cachetools==5.4.0
     # via google-auth
+cartopy==0.23.0
 certifi==2023.11.17
     # via
     #   lifewatch-pypam
@@ -81,6 +82,8 @@ fonttools==4.38.0
     # via matplotlib
 fsspec==2024.6.1
     # via dask
+geopandas==1.0.1
+geoviews==1.13.0
 google-api-core==2.19.1
     # via
     #   google-cloud-core
@@ -335,6 +338,7 @@ requests-toolbelt==1.0.0
     # via poetry
 resampy==0.4.3
     # via scikit-maad
+rioxarray==0.17.0
 rsa==4.7.2
     # via
     #   awscli
