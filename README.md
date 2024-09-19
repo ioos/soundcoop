@@ -2,6 +2,7 @@
 This repository contains Jupyter notebooks developed by the SoundCoop project team for the passive acoustic community.
 - Key contributors are: Danelle Cline, Trevor Golden, Karina Khazmutdinova, Clea Parcerisas, John Ryan, and Brian Stone
 
+-------
 The [SoundCoop Project](https://www.ncei.noaa.gov/products/passive-acoustic-data#tab-6801) was a three-year effort funded by NOAA Integrated Ocean Observing System, Bureau for Ocean Energy Management, U.S Navy Living Marine Resources, and the Office of Naval Research. The goal of the project was to develop technology in collaboration with the passive acoustic monitoring (PAM) community to enable scalable processing of comparable sound level metrics and to provide open access to centralized data for science and management applications. 
 
 U.S. and international scientists contributed PAM data spanning 12 separate long-term monitoring projects. Datasets from ten of these projects were used to calculate a specific sound level metric, [hybrid millidecade (HMD) spectra](https://doi.org/10.1121/10.0003324), across a diversity of labs and instruments.
