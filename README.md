@@ -16,9 +16,9 @@ Jupyter notebooks were created to demonstrate how to access data from different 
 
 ## Jupyter Notebooks
 ### 0_download_data
-**download_ESONS_from_rw**: This notebook shows how to access HMD netCDF files recorded at the ESONS listening site from the Axiom Data Science Research Workspace
+**download_ESONS_from_rw**: This notebook shows how to access HMD netCDF files recorded at the ESONS listening site from the Axiom Data Science Research Workspace.
 
-**download_JOMOPANS_from_rw**: This notebook shows how to access one-third octave sound levels recorded at a listening site in the North Sea as part of the [JOMOPANS project](https://northsearegion.eu/jomopans/). Originally accessed from the [ICES database](https://www.ices.dk/data/data-portals/Pages/Continuous-Noise.aspx), the HDF files were translated into netCDF and are hosted on the Axiom Data Science Research Workspace
+**download_JOMOPANS_from_rw**: This notebook shows how to access one-third octave sound levels recorded at a listening site in the North Sea as part of the [JOMOPANS project](https://northsearegion.eu/jomopans/). Originally accessed from the [ICES database](https://www.ices.dk/data/data-portals/Pages/Continuous-Noise.aspx), the HDF files were translated into netCDF and are hosted on the Axiom Data Science Research Workspace.
 
 **use_minio_to_access_GCP**: This notebook shows how to download files from Google Cloud Platform, specifically SB03 HMD netCDFs from the NCEI SoundCoop bucket on GCP.
 
@@ -34,7 +34,7 @@ Jupyter notebooks were created to demonstrate how to access data from different 
 **plot_sound_environmental_and_climatology_data**: Access two months of HMD recorded at Monhegan Island site in the Gulf of Maine from the GCP bucket, access associated wind speed and wave height recorded at the 44007 environmental sensor station located ~72 km from the listening site from October 23, 2021 to November 17, 2021, and plot the one-hour resolution HMD spectra recorded during three wind speed and wave height categories. This example shows the passing of two storms where elevated wind speed and wave height increase the amplitude of the ocean soundscape.
   + This notebook replicates plots created in the SoundCoop portal. Use the portal to select the acoustic dataset, environmental sensor or model dataset as well as the desired time period and frequency range. Copy the snippet of python code displayed in the portal that identifies the ERDDAP ID for the selected environmental dataset and parameters for the selected acoustic dataset, and paste it in this notebook to reproduce the plots.
   + This notebook also contains an additional feature where the sound levels are plotted by temperature anomaly bins calculated using [NOAA 1-degree World Ocean Atlas 2023](https://www.ncei.noaa.gov/products/world-ocean-atlas) temperature values for a given point and month.
-  + Note: a limited number of recorded days (~20) are recommended to avoid memory issues during processing. If more days are desired for your analysis, ensure your compute environment has enough RAM and CPU/GPU
+  + Note: a limited number of recorded days (~20) are recommended to avoid memory issues during processing. If more days are desired for your analysis, ensure your compute environment has enough RAM and CPU/GPU.
 
 ## Running the Notebooks
 The notebooks were built so they could run in free environments such as [MyBinder](https://mybinder.org/), [Google Colab](https://colab.research.google.com/), and [JupyterLab](https://jupyter.org/), meaning they aimed to have low requirements for RAM an CPU. The tradeoff is a reduced amount of data to view and process. These notebooks are for demonstration purposes and can serve as the foundation for large scale processing that is typical of passive acoustic data analyses. 
