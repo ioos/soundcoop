@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "soundcoop"
+version = "0.1.0"
+description = "Collection of jupyter notebooks"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12.0"
+lifewatch-pypam = "^0.3.0"
+mbari-pbp = "^1.4.8"
+geopandas = "^1.0.1"
+rioxarray = "^0.17.0"
+minio = "^7.2.8"
+hvplot = "^0.10.0"
+Cartopy = "^0.23.0"
+geoviews = "^1.13.0"
+pvlib = "^0.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
