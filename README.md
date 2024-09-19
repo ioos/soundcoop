@@ -41,11 +41,26 @@ Jupyter notebooks were created to demonstrate how to access data from different 
 ## Running the Notebooks
 The notebooks were built so they could run in free environments such as [MyBinder](https://mybinder.org/), [Google Colab](https://colab.research.google.com/), and [JupyterLab](https://jupyter.org/), meaning they aimed to have low requirements for RAM an CPU. The tradeoff is a reduced amount of data to view and process. These notebooks are for demonstration purposes and can serve as the foundation for large scale processing that is typical of passive acoustic data analyses. 
 
-Please review the following content on the processing environments noted above
+### MyBinder 
+Binder is an open-source tool that uses Kubernetes and JupyterHub to simplify the deployment process. It allows you to create custom computing environments that can be shared and used by many users
+* Binder requires configuration files (e.g., environmental.yml) that specifies an Anaconda environment
+* Binder takes a long time (possibly 10+ minutes) to initiate a session if a docker image hasn't been created within the past 24 hours. 
+* Users will have a maximum of 2 GB of memory when using Binder. If you go over 2 GB, your kernel will restart.
+* Binder is ideally suited for short sessions - user sessions will be shut down after more than 10 minutes of inactivity. There are no guarantees that a session will remain running after six hours.
+* Binder allows a maximum of 100 simultaneous users
+
+### Google Colab
+Colab is a hosted Jupyter Notebook service that provides free access to computing resources. Code is written and executed in a web browser.
+* You will need a gmail account
+* Different types of GPUs/TPUs are available ranging from 12-16 GB of memory
+* Notebooks can run for up to 12 hours
+* Overall usage limates, timeout periods, maximum VM lifetime, available GPU types, etc will vary over time
+
+### JupyterLab
+
+Additional details on these processing environments
 * [Usage guidelines for MyBinder](https://mybinder.readthedocs.io/en/latest/about/user-guidelines.html)
 * [Quotas and limits for Google Colab](https://cloud.google.com/colab/docs/quotas)
 * [Some info on JupyterLab 4.0 set up and environment](https://lwn.net/Articles/936340/)
 * [JupyterLab Desktop](https://github.com/jupyterlab/jupyterlab-desktop), which takes advantage of your local machine's memory allocations and processing capabilities
-  
-An environment yaml file is provided to ensure that the notebooks can be run without issues related to system and library dependencies.
 
