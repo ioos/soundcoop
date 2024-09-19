@@ -13,14 +13,12 @@ The collaborative effort of the SoundCoop led to several advances in data manage
 Jupyter notebooks were created to demonstrate how to access data from different open access cloud buckets (Step 0), process raw audio data collected from two different recording instruments into HMD spectra using PBP and output the result in the SoundCoop netCDF standard (Step 1), read, visualize and analyze HMD netCDFs using PyPAM (Step 2), and integrate and visualize the HMD netCDFs with enviornmental data just like the visualizations available in the SoundCoop portal (Step 3).
 
 ## Jupyter Notebooks
--------
 ### 0_download_data
-**use_minio_to_access_GCP**: This notebook shows how to download files from Google Cloud Platform, specifically SB03 HMD netCDFs from the NCEI SoundCoop bucket on GCP.
-
 **download_ESONS_from_rw**: This notebook shows how to access HMD netCDF files recorded at the ESONS listening site from the Axiom Data Science Research Workspace
 
 **download_JOMOPANS_from_rw**: This notebook shows how to access one-third octave sound levels recorded at a listening site in the North Sea as part of the [JOMOPANS project](https://northsearegion.eu/jomopans/). Originally accessed from the [ICES database](https://www.ices.dk/data/data-portals/Pages/Continuous-Noise.aspx), the HDF files were translated into netCDF and are hosted on the Axiom Data Science Research Workspace
 
+**use_minio_to_access_GCP**: This notebook shows how to download files from Google Cloud Platform, specifically SB03 HMD netCDFs from the NCEI SoundCoop bucket on GCP.
 
 ### 1_process_to_HMD_pbp
 **MARS Data**: Access X days of data recorded from the Monterey Bay Aquarium Research Institute (MBARI) Monterey Accelerated Research System (MARS) [undersea cabled observatory](https://www.mbari.org/data/passive-acoustic-data/) from the [Amazon Web Services (AWS) Registry of Open Data](https://www.mbari.org/project/open-acoustic-data/), create a timekeeping JSON of the data, apply calibration, create one-minute HMD spectra and output as a netCDF.
