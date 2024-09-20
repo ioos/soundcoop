@@ -54,6 +54,9 @@ Binder is a online service to build and share reproducible and interactive compu
 * No more than 100 simultaneous users are allowed on a single repository
 * [Usage guidelines for MyBinder](https://mybinder.readthedocs.io/en/latest/about/user-guidelines.html)
 
+To run this repository's notebooks on MyBinder:
+`[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ioos/soundcoop/HEAD)`
+
 ### Google Colaboratory (Colab)
 Colab is a online hosting service to run Jupyter Notebooks using free computing resources
 * Sessions run for up to 12 hours
