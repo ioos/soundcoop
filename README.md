@@ -59,12 +59,12 @@ Colab is a online hosting service to run Jupyter Notebooks using free computing 
 * Sessions run for up to 12 hours
 * VMs have ~ 13 GB of RAM
 * Colab resources are dynamic. Usage limits, timeout periods, VM lifetime, available GPU types, etc vary over time.
-* You will need a gmail account.
+* You will need a gmail account
 * [Quotas and limits for Google Colab](https://cloud.google.com/colab/docs/quotas)
 
 ### JupyterLab
-JupyterLab is a free browser-based software for interactive development and computing environment for notebooks.
-* Provides access to computational environments and resoruces
+JupyterLab is a free browser-based software for interactive development and computing environment for notebooks
+* Provides access to computational environments and resources
 * Runs on the cloud or on your own hardware
 * [Some info on JupyterLab 4.0 set up and environment](https://lwn.net/Articles/936340/)
 * [JupyterLab Desktop](https://github.com/jupyterlab/jupyterlab-desktop), which takes advantage of your local machine's memory allocations and processing capabilities
