@@ -52,19 +52,20 @@ Binder is a online service to build and share reproducible and interactive compu
 * Each deployment has a maximum of 2 GB of RAM
 * Binder is best suited for short sessions. Your kernel will shut down after 10 minutes of inactivity and 6 hour sessions
 * No more than 100 simultaneous users are allowed on a single repository
+* [Usage guidelines for MyBinder](https://mybinder.readthedocs.io/en/latest/about/user-guidelines.html)
 
 ### Google Colaboratory (Colab)
 Colab is a online hosting service to run Jupyter Notebooks using free computing resources
 * Sessions run for up to 12 hours
 * VMs have ~ 13 GB of RAM
 * Colab resources are dynamic. Usage limits, timeout periods, VM lifetime, available GPU types, etc vary over time.
-* You will need a gmail account. 
+* You will need a gmail account.
+* [Quotas and limits for Google Colab](https://cloud.google.com/colab/docs/quotas)
 
 ### JupyterLab
-
-See below for additional details on these processing environments
-* [Usage guidelines for MyBinder](https://mybinder.readthedocs.io/en/latest/about/user-guidelines.html)
-* [Quotas and limits for Google Colab](https://cloud.google.com/colab/docs/quotas)
+JupyterLab is a free browser-based software for interactive development and computing environment for notebooks.
+* Provides access to computational environments and resoruces
+* Runs on the cloud or on your own hardware
 * [Some info on JupyterLab 4.0 set up and environment](https://lwn.net/Articles/936340/)
 * [JupyterLab Desktop](https://github.com/jupyterlab/jupyterlab-desktop), which takes advantage of your local machine's memory allocations and processing capabilities
 
