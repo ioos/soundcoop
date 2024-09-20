@@ -48,7 +48,11 @@ The notebooks were built so they could run in free environments such as [MyBinde
 ### MyBinder
 Binder is an open-source tool that uses Kubernetes and JupyterHub 
 * Requires an open source repository containing the notebook(s) and confirugation files
-* Builds a custom conda environment to run the code using the provided In `environment.yml' 
+* Builds a custom conda environment to run the code using the provided `environment.yml`
+* It can take a very long time (10+ minutes) to build a docker image of the repository on Binder. Please be patient. The image appears to last for approximately 24 hours. Within that timeframe, subsequent set up times are significantly reduced.
+* Each deployment has a maximum of 2 GB of memory
+* Binder is best suited for short sessions. Your kernel will shut down after 10 minutes of inactivity and 6 hour sessions
+* No more than 100 simultaneous users are allowed on a signle repository
 
 Please review the following content on the processing environments noted above
 * [Usage guidelines for MyBinder](https://mybinder.readthedocs.io/en/latest/about/user-guidelines.html)
