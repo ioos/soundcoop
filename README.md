@@ -45,11 +45,14 @@ In `3_HMD_environmental_data/`
 ## Running the Notebooks
 The notebooks were built so they could run in free environments such as [MyBinder](https://mybinder.org/), [Google Colab](https://colab.research.google.com/), and [JupyterLab](https://jupyter.org/), meaning they aimed to have low requirements for RAM an CPU. The tradeoff is a reduced amount of data to view and process. These notebooks are for demonstration purposes and can serve as the foundation for large scale processing that is typical of passive acoustic data analyses. 
 
+### MyBinder
+Binder is an open-source tool that uses Kubernetes and JupyterHub 
+* Requires an open source repository containing the notebook(s) and confirugation files
+* Builds a custom conda environment to run the code using the provided *environment.yml* 
+
 Please review the following content on the processing environments noted above
 * [Usage guidelines for MyBinder](https://mybinder.readthedocs.io/en/latest/about/user-guidelines.html)
 * [Quotas and limits for Google Colab](https://cloud.google.com/colab/docs/quotas)
 * [Some info on JupyterLab 4.0 set up and environment](https://lwn.net/Articles/936340/)
 * [JupyterLab Desktop](https://github.com/jupyterlab/jupyterlab-desktop), which takes advantage of your local machine's memory allocations and processing capabilities
-  
-An environment yaml file is provided to ensure that the notebooks can be run without issues related to system and library dependencies.
 
