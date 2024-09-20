@@ -48,7 +48,7 @@ The notebooks were built so they could run in free environments such as [MyBinde
 ### MyBinder
 Binder is an open-source tool that uses Kubernetes and JupyterHub 
 * Requires an open source repository containing the notebook(s) and confirugation files
-* Builds a custom conda environment to run the code using the provided *environment.yml* 
+* Builds a custom conda environment to run the code using the provided In `environment.yml' 
 
 Please review the following content on the processing environments noted above
 * [Usage guidelines for MyBinder](https://mybinder.readthedocs.io/en/latest/about/user-guidelines.html)
