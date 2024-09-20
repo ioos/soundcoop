@@ -15,25 +15,29 @@ The collaborative effort of the SoundCoop led to several advances in data manage
 Jupyter notebooks were created to demonstrate how to access data from different open access cloud buckets (Step 0), process raw audio data collected from two different recording instruments into HMD spectra using PBP and output the result in the SoundCoop netCDF standard (Step 1), read, visualize and analyze HMD netCDFs using PyPAM (Step 2), and integrate and visualize the HMD netCDFs with enviornmental data just like the visualizations available in the SoundCoop portal (Step 3).
 
 ## Jupyter Notebooks
-### 0_download_data
-**download_ESONS_from_rw**: This notebook shows how to access HMD netCDF files recorded at the ESONS listening site from the Axiom Data Science Research Workspace.
 
-**download_JOMOPANS_from_rw**: This notebook shows how to access one-third octave sound levels recorded at a listening site in the North Sea as part of the [JOMOPANS project](https://northsearegion.eu/jomopans/). Originally accessed from the [ICES database](https://www.ices.dk/data/data-portals/Pages/Continuous-Noise.aspx), the HDF files were translated into netCDF and are hosted on the Axiom Data Science Research Workspace.
+### Data notebooks
+In `0_download_data/`
+ 
+* [download_ESONS_from_rw](https://github.com/ioos/soundcoop/blob/main/0_download_data/download_ESONS_from_rw.ipynb): This notebook shows how to access HMD netCDF files recorded at the ESONS listening site from the Axiom Data Science Research Workspace.
+* [download_JOMOPANS_from_rw](https://github.com/ioos/soundcoop/blob/main/0_download_data/download_JOMOPANS_from_rw.ipynb): This notebook shows how to access one-third octave sound levels recorded at a listening site in the North Sea as part of the [JOMOPANS project](https://northsearegion.eu/jomopans/). Originally accessed from the [ICES database](https://www.ices.dk/data/data-portals/Pages/Continuous-Noise.aspx), the HDF files were translated into netCDF and are hosted on the Axiom Data Science Research Workspace.
+* [use_minio_to_access_GCP](https://github.com/ioos/soundcoop/blob/main/0_download_data/use_minio_to_access_GCP.ipynb)  This notebook shows how to download files from Google Cloud Platform, specifically SB03 HMD netCDFs from the NCEI SoundCoop bucket on GCP.
 
-**use_minio_to_access_GCP**: This notebook shows how to download files from Google Cloud Platform, specifically SB03 HMD netCDFs from the NCEI SoundCoop bucket on GCP.
+### Processing notebooks 
+In `1_process_to_HMD_pbp/`
 
-### 1_process_to_HMD_pbp
-**MARS Data**: Access X days of data recorded from the Monterey Bay Aquarium Research Institute (MBARI) Monterey Accelerated Research System (MARS) [undersea cabled observatory](https://www.mbari.org/data/passive-acoustic-data/) from the [Amazon Web Services (AWS) Registry of Open Data](https://www.mbari.org/project/open-acoustic-data/), create a timekeeping JSON of the data, apply calibration, create one-minute HMD spectra and output as a netCDF.
+* MARS Data: Access 1 day of data recorded from the Monterey Bay Aquarium Research Institute (MBARI) Monterey Accelerated Research System (MARS) [undersea cabled observatory](https://www.mbari.org/data/passive-acoustic-data/) from the [Amazon Web Services (AWS) Registry of Open Data](https://www.mbari.org/project/open-acoustic-data/), create a timekeeping JSON of the data, apply calibration, create one-minute HMD spectra and output as a netCDF.
+* NRS DATA: Access 1 day of data recorded from the NOAA-National Park Service Ocean Noise Reference Station Network [(NRS)](https://www.pmel.noaa.gov/acoustics/ocean-noise-reference.html) from the [NCEI Passive Acoustic Data Archive](https://www.ncei.noaa.gov/products/passive-acoustic-data) Google Cloud Platform (GCP) bucket available through the NOAA NODD Program, create a timekeeping JSON of the data, apply calibration, create one-minute HMD spectra and output as a netCDF.
 
-**NRS DATA**: Access X days of data recorded from the NOAA-National Park Service Ocean Noise Reference Station Network [(NRS)](https://www.pmel.noaa.gov/acoustics/ocean-noise-reference.html) from the [NCEI Passive Acoustic Data Archive](https://www.ncei.noaa.gov/products/passive-acoustic-data) Google Cloud Platform (GCP) bucket available through the NOAA NODD Program, create a timekeeping JSON of the data, apply calibration, create one-minute HMD spectra and output as a netCDF.
+### Analysis notebooks 
 
-### 2_analysis_of_HMD_pypam
-**data_analysis_with_pypam.ipynb**: Access one year of one-minute HMD recorded in the Cordell Bank National Marine Sanctuary as part of the NRS project (NRS11) on GCP and one month of MBARI-MARS one-minute HMD from AWS, read in and plot LTSA and SPD where data quality tags are set to 'Good', extract and plot the blue and fin whale call index (CI), co-plots PSD for both listenting stations, and reprocess and plot as broadband and decidecade sound levels.
+In `2_analysis_of_HMD_pypam/`
 
-**dimension_reduction_and_clustering.ipynb**: Using one year of NRS11 and MBARI-MARS HMD data, this notebook conducts dimension reduction using UMAP.
+* [data_analysis_with_pypam](https://github.com/ioos/soundcoop/blob/main/2_analysis_of_HMD_pypam/data_analysis_with_pypam.ipynb): Access one year of one-minute HMD recorded in the Cordell Bank National Marine Sanctuary as part of the NRS project (NRS11) on GCP and one month of MBARI-MARS one-minute HMD from AWS, read in and plot LTSA and SPD where data quality tags are set to 'Good', extract and plot the blue and fin whale call index (CI), co-plots PSD for both listenting stations, and reprocess and plot as broadband and decidecade sound levels.
+* [dimension_reduction_and_clustering](https://github.com/ioos/soundcoop/blob/main/2_analysis_of_HMD_pypam/dimension_reduction_and_clustering.ipynb): Using one year of NRS11 and MBARI-MARS HMD data, this notebook conducts dimension reduction using UMAP.
 
-### 3_HMD_environmental_data
-**plot_sound_environmental_and_climatology_data.ipynb**: Access two months of HMD recorded at Monhegan Island site in the Gulf of Maine from the GCP bucket, access associated wind speed and wave height recorded at the 44007 environmental sensor station located ~72 km from the listening site from October 23, 2021 to November 17, 2021, and plot the one-hour resolution HMD spectra recorded during three wind speed and wave height categories. This example shows the passing of two storms where elevated wind speed and wave height increase the amplitude of the ocean soundscape.
+In `3_HMD_environmental_data/`
+* [plot_sound_environmental_and_climatology_data](https://github.com/ioos/soundcoop/blob/main/3_HMD_environmental_data/plot_sound_environmental_and_climatology_data.ipynb): Access two months of HMD recorded at Monhegan Island site in the Gulf of Maine from the GCP bucket, access associated wind speed and wave height recorded at the 44007 environmental sensor station located ~72 km from the listening site from October 23, 2021 to November 17, 2021, and plot the one-hour resolution HMD spectra recorded during three wind speed and wave height categories. This example shows the passing of two storms where elevated wind speed and wave height increase the amplitude of the ocean soundscape.
   + This notebook replicates plots created in the SoundCoop portal. Use the portal to select the acoustic dataset, environmental sensor or model dataset as well as the desired time period and frequency range. Copy the snippet of python code displayed in the portal that identifies the ERDDAP ID for the selected environmental dataset and parameters for the selected acoustic dataset, and paste it in this notebook to reproduce the plots.
   + This notebook also contains an additional feature where the sound levels are plotted by temperature anomaly bins calculated using [NOAA 1-degree World Ocean Atlas 2023](https://www.ncei.noaa.gov/products/world-ocean-atlas) temperature values for a given point and month.
   + Note: a limited number of recorded days (~20) are recommended to avoid memory issues during processing. If more days are desired for your analysis, ensure your compute environment has enough RAM and CPU/GPU.
