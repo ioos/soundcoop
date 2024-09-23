@@ -5,8 +5,13 @@
 >
 
 ## Binder
-To run the analysis notebook on mybinder, please follow:
+To run the notebooks on mybinder, please follow:
+For analysis notebook:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ioos/soundcoop/HEAD?labpath=2_analysis_of_HMD_pypam%2Fdata_analysis_with_pypam.ipynb)
+
+For dimension reduction notebook: 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ioos/soundcoop/HEAD?labpath=2_analysis_of_HMD_pypam%2Fdimension_reduction_and_clustering.ipynb)
+
 
 ## Colab 
 To run the notebooks in this repository in Google Colab, click on the colab link below: Note that you will need to have a Google account to run the notebooks in Colab.
