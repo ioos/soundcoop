@@ -32,6 +32,9 @@ In `1_process_to_HMD_pbp/`
 
 * In `NRS11` [gen_HMD_NRS11_Haruphone.ipynb](https://github.com/ioos/soundcoop/blob/main/1_process_to_HMD_pbp/NRS11/gen_HMD_NRS11_Haruphone.ipynb): Access data recorded from the NOAA-National Park Service Ocean Noise Reference Station Network [(NRS)](https://www.pmel.noaa.gov/acoustics/ocean-noise-reference.html) from the [NCEI Passive Acoustic Data Archive](https://www.ncei.noaa.gov/products/passive-acoustic-data) Google Cloud Platform (GCP) bucket available through the NOAA NODD Program, read in processing metadata, create calibrated one-minute HMD spectra for one day and output the results as as a netCDF.
 
+Example summary plot of HMD from NRS11 (click on the image for a larger view):
+[![Image link ](docs/images/NRS11_20201018_sm.png)](docs/images/NRS11_20201018.png)
+
 ### Analysis notebooks 
 
 In `2_analysis_of_HMD_pypam/`
