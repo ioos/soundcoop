@@ -1,6 +1,6 @@
 # SoundCoop
 This repository contains Jupyter notebooks developed by the SoundCoop project team for the passive acoustic community.
-- Key contributors are: Danelle Cline, Trevor Golden, Karina Khazmutdinova, Clea Parcerisas, John Ryan, and Brian Stone
+- Key contributors: [Danelle Cline](https://www.mbari.org/person/danelle-e-cline/), [Trevor Golden](https://axiomdatascience.com/about/), [Karina Khazmutdinova](https://axiomdatascience.com/about/), [Clea Parcerisas](https://www.vliz.be/en/imis?module=person&persid=38082), [Carlos Rueda](https://www.mbari.org/person/carlos-a-rueda/), [John Ryan](https://www.mbari.org/person/john-ryan/), and [Brian Stone](https://axiomdatascience.com/about/)
 
 ## Overview
 The [SoundCoop Project](https://www.ncei.noaa.gov/products/passive-acoustic-data#tab-6801) was a three-year effort funded by NOAA Integrated Ocean Observing System, Bureau for Ocean Energy Management, U.S. Navy Living Marine Resources, and the Office of Naval Research. The goal of the project was to develop technology in collaboration with the passive acoustic monitoring (PAM) community to enable scalable processing of comparable sound level metrics and to provide open access to centralized data for science and management applications. 
@@ -26,8 +26,11 @@ In `0_download_data/`
 ### Processing notebooks 
 In `1_process_to_HMD_pbp/`
 
-* MARS Data: Access 1 day of data recorded from the Monterey Bay Aquarium Research Institute (MBARI) Monterey Accelerated Research System (MARS) [undersea cabled observatory](https://www.mbari.org/data/passive-acoustic-data/) from the [Amazon Web Services (AWS) Registry of Open Data](https://www.mbari.org/project/open-acoustic-data/), create a timekeeping JSON of the data, apply calibration, create one-minute HMD spectra and output as a netCDF.
-* NRS DATA: Access 1 day of data recorded from the NOAA-National Park Service Ocean Noise Reference Station Network [(NRS)](https://www.pmel.noaa.gov/acoustics/ocean-noise-reference.html) from the [NCEI Passive Acoustic Data Archive](https://www.ncei.noaa.gov/products/passive-acoustic-data) Google Cloud Platform (GCP) bucket available through the NOAA NODD Program, create a timekeeping JSON of the data, apply calibration, create one-minute HMD spectra and output as a netCDF.
+* In `MARS` [gen_HMD_MARS_icListen.ipynb](https://github.com/ioos/soundcoop/blob/main/1_process_to_HMD_pbp/MARS/gen_HMD_MARS_icListen.ipynb): Access data recorded from the Monterey Bay Aquarium Research Institute (MBARI) Monterey Accelerated Research System (MARS) [undersea cabled observatory](https://www.mbari.org/data/passive-acoustic-data/) from the [Amazon Web Services (AWS) Registry of Open Data](https://www.mbari.org/project/open-acoustic-data/), read in processing metadata, create calibrated one-minute HMD spectra for one day and output the results as as a netCDF.
+  
+*  In `MB05` [gen_HMD_MB05_SoundTrap.ipynb](https://github.com/ioos/soundcoop/blob/main/1_process_to_HMD_pbp/MB05/gen_HMD_MB05_SoundTrap.ipynb): Access data recorded in the Monterey Bay National Marine Sanctuary from the [Amazon Web Services (AWS) Registry of Open Data](https://www.mbari.org/project/open-acoustic-data/), read in processing metadata, create calibrated one-minute HMD spectra for one day and output the results as as a netCDF.
+
+* In `NRS11` [gen_HMD_NRS11_Haruphone.ipynb](https://github.com/ioos/soundcoop/blob/main/1_process_to_HMD_pbp/NRS11/gen_HMD_NRS11_Haruphone.ipynb): Access data recorded from the NOAA-National Park Service Ocean Noise Reference Station Network [(NRS)](https://www.pmel.noaa.gov/acoustics/ocean-noise-reference.html) from the [NCEI Passive Acoustic Data Archive](https://www.ncei.noaa.gov/products/passive-acoustic-data) Google Cloud Platform (GCP) bucket available through the NOAA NODD Program, read in processing metadata, create calibrated one-minute HMD spectra for one day and output the results as as a netCDF.
 
 ### Analysis notebooks 
 
@@ -65,10 +68,27 @@ Colab is a online hosting service to run Jupyter Notebooks using free computing 
 * You will need a gmail account
 * [Quotas and limits for Google Colab](https://cloud.google.com/colab/docs/quotas)
 
+To run any of this repository's notebooks (separately) on Google Colab, please follow: 
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ioos/soundcoop/)
+
 ### JupyterLab
 JupyterLab is a free browser-based software for interactive development and computing environment for notebooks
 * Provides access to computational environments and resources
 * Runs on the cloud or on your own hardware
 * [Some info on JupyterLab 4.0 set up and environment](https://lwn.net/Articles/936340/)
 * [JupyterLab Desktop](https://github.com/jupyterlab/jupyterlab-desktop), which takes advantage of your local machine's memory allocations and processing capabilities
+
+To clone and run the notebooks of this repository on jupyterlab, follow: 
+go to Git > Clone a Repository and add this repository url: https://github.com/ioos/soundcoop (or clone via terminal)
+The notebook will be downloaded for you on this space, and you are ready to go! 
+Make sure you either first install all the dependencies from the repository, by either running the install cells of each notebook or by initially install all the required dependencies. 
+This second option can be done with 
+```shell
+poetry install
+```
+
+or 
+```shell
+pip install -r requirements.txt
+```
 
