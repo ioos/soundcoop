@@ -1,6 +1,6 @@
 # SoundCoop
 This repository contains Jupyter notebooks developed by the SoundCoop project team for the passive acoustic community.
-- Key contributors: [Danelle Cline](https://www.mbari.org/person/danelle-e-cline/), [Trevor Golden](https://axiomdatascience.com/about/), [Karina Khazmutdinova](https://axiomdatascience.com/about/), [Clea Parcerisas](https://www.researchgate.net/profile/Clea-Parcerisas), [Carlos Rueda](https://www.mbari.org/person/carlos-a-rueda/), [John Ryan](https://www.mbari.org/person/john-ryan/), and [Brian Stone](https://axiomdatascience.com/about/)
+- Key contributors: [Danelle Cline](https://www.mbari.org/person/danelle-e-cline/), [Trevor Golden](https://axiomdatascience.com/about/), [Karina Khazmutdinova](https://axiomdatascience.com/about/), [Clea Parcerisas](https://www.vliz.be/en/imis?module=person&persid=38082), [Carlos Rueda](https://www.mbari.org/person/carlos-a-rueda/), [John Ryan](https://www.mbari.org/person/john-ryan/), and [Brian Stone](https://axiomdatascience.com/about/)
 
 ## Overview
 The [SoundCoop Project](https://www.ncei.noaa.gov/products/passive-acoustic-data#tab-6801) was a three-year effort funded by NOAA Integrated Ocean Observing System, Bureau for Ocean Energy Management, U.S. Navy Living Marine Resources, and the Office of Naval Research. The goal of the project was to develop technology in collaboration with the passive acoustic monitoring (PAM) community to enable scalable processing of comparable sound level metrics and to provide open access to centralized data for science and management applications. 
