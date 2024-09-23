@@ -16,7 +16,8 @@ For dimension reduction notebook:
 ## Colab 
 To run the notebooks in this repository in Google Colab, click on the colab link below: Note that you will need to have a Google account to run the notebooks in Colab.
 
-https://colab.research.google.com/github/ioos/soundcoop/
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ioos/soundcoop/)
+
 
 ## Any jupyterhub environment (with the git plugin)
 Once in the jupyterhub, go to Git > Clone a Repository
