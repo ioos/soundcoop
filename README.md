@@ -65,10 +65,27 @@ Colab is a online hosting service to run Jupyter Notebooks using free computing 
 * You will need a gmail account
 * [Quotas and limits for Google Colab](https://cloud.google.com/colab/docs/quotas)
 
+To run any of this repository's notebooks (separately) on Google Colab, please follow: 
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ioos/soundcoop/)
+
 ### JupyterLab
 JupyterLab is a free browser-based software for interactive development and computing environment for notebooks
 * Provides access to computational environments and resources
 * Runs on the cloud or on your own hardware
 * [Some info on JupyterLab 4.0 set up and environment](https://lwn.net/Articles/936340/)
 * [JupyterLab Desktop](https://github.com/jupyterlab/jupyterlab-desktop), which takes advantage of your local machine's memory allocations and processing capabilities
+
+To clone and run the notebooks of this repository on jupyterlab, follow: 
+go to Git > Clone a Repository and add this repository url: https://github.com/ioos/soundcoop (or clone via terminal)
+The notebook will be downloaded for you on this space, and you are ready to go! 
+Make sure you either first install all the dependencies from the repository, by either running the install cells of each notebook or by initially install all the required dependencies. 
+This second option can be done with 
+```shell
+poetry install
+```
+
+or 
+```shell
+pip install -r requirements.txt
+```
 
