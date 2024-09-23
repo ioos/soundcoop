@@ -26,8 +26,11 @@ In `0_download_data/`
 ### Processing notebooks 
 In `1_process_to_HMD_pbp/`
 
-* MARS Data: Access 1 day of data recorded from the Monterey Bay Aquarium Research Institute (MBARI) Monterey Accelerated Research System (MARS) [undersea cabled observatory](https://www.mbari.org/data/passive-acoustic-data/) from the [Amazon Web Services (AWS) Registry of Open Data](https://www.mbari.org/project/open-acoustic-data/), create a timekeeping JSON of the data, apply calibration, create one-minute HMD spectra and output as a netCDF.
-* NRS DATA: Access 1 day of data recorded from the NOAA-National Park Service Ocean Noise Reference Station Network [(NRS)](https://www.pmel.noaa.gov/acoustics/ocean-noise-reference.html) from the [NCEI Passive Acoustic Data Archive](https://www.ncei.noaa.gov/products/passive-acoustic-data) Google Cloud Platform (GCP) bucket available through the NOAA NODD Program, create a timekeeping JSON of the data, apply calibration, create one-minute HMD spectra and output as a netCDF.
+* In `MARS` [gen_HMD_MARS_icListen.ipynb](https://github.com/ioos/soundcoop/blob/main/1_process_to_HMD_pbp/MARS/gen_HMD_MARS_icListen.ipynb): Access data recorded from the Monterey Bay Aquarium Research Institute (MBARI) Monterey Accelerated Research System (MARS) [undersea cabled observatory](https://www.mbari.org/data/passive-acoustic-data/) from the [Amazon Web Services (AWS) Registry of Open Data](https://www.mbari.org/project/open-acoustic-data/), read in processing metadata, create calibrated one-minute HMD spectra for one day and output the results as as a netCDF.
+  
+*  In `MB05` [gen_HMD_MB05_SoundTrap.ipynb](https://github.com/ioos/soundcoop/blob/main/1_process_to_HMD_pbp/MB05/gen_HMD_MB05_SoundTrap.ipynb): Access data recorded in the MOnterey Bay National Marine Sanctuary from the [Amazon Web Services (AWS) Registry of Open Data](https://www.mbari.org/project/open-acoustic-data/), read in processing metadata, create calibrated one-minute HMD spectra for one day and output the results as as a netCDF.
+
+* In `NRS11` [gen_HMD_NRS11_Haruphone.ipynb](https://github.com/ioos/soundcoop/blob/main/1_process_to_HMD_pbp/NRS11/gen_HMD_NRS11_Haruphone.ipynb): Access data recorded from the NOAA-National Park Service Ocean Noise Reference Station Network [(NRS)](https://www.pmel.noaa.gov/acoustics/ocean-noise-reference.html) from the [NCEI Passive Acoustic Data Archive](https://www.ncei.noaa.gov/products/passive-acoustic-data) Google Cloud Platform (GCP) bucket available through the NOAA NODD Program, read in processing metadata, create calibrated one-minute HMD spectra for one day and output the results as as a netCDF.
 
 ### Analysis notebooks 
 
