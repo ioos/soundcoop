@@ -61,7 +61,7 @@ Binder is a online service to build and share reproducible and interactive compu
 * [Usage guidelines for MyBinder](https://mybinder.readthedocs.io/en/latest/about/user-guidelines.html)
 
 To run this repository's notebooks on MyBinder, please follow: 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ioos/soundcoop/v0.0.1)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ioos/soundcoop/v0.0.2)
 
 ### Google Colaboratory (Colab)
 Colab is a online hosting service to run Jupyter Notebooks using free computing resources
