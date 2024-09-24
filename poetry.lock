@@ -2191,13 +2191,13 @@ dev = ["meson-python (>=0.13.1)", "numpy (>=1.25)", "pybind11 (>=2.6)", "setupto
 
 [[package]]
 name = "mbari-pbp"
-version = "1.5.0"
+version = "1.5.1"
 description = "PyPAM based Processing"
 optional = false
 python-versions = "<3.12.0,>=3.9"
 files = [
-    {file = "mbari_pbp-1.5.0-py3-none-any.whl", hash = "sha256:28a1fc356b09aadd5e8706079ba9f53353a371db0c84821e0781681814967dc3"},
-    {file = "mbari_pbp-1.5.0.tar.gz", hash = "sha256:ad9fe37e6c753814348a30576c12d6ce4449a291288d6d5e4c84c73d65e66267"},
+    {file = "mbari_pbp-1.5.1-py3-none-any.whl", hash = "sha256:39f126e7cbb1dd7379e93c5e4b04ade0e1c231f9492fa2fd232e9fec6c71ef02"},
+    {file = "mbari_pbp-1.5.1.tar.gz", hash = "sha256:6a173e00462d8aaf1af1e2cdfb2848a58aa24bc5321001df496ca7fb6facae64"},
 ]
 
 [package.dependencies]
@@ -4455,4 +4455,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11,<3.12.0"
-content-hash = "3193ad9d8fce0cd627e9db6a9a6211143c1b2bb80a7227e44750da2c2d32d630"
+content-hash = "9203cefff30c7463588365af02dee180ba6cb5537ca0ea9ff5eeb327cc095d2e"
