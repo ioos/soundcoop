@@ -6,11 +6,7 @@
 
 ## Binder
 To run the notebooks on mybinder, please follow:
-For analysis notebook:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ioos/soundcoop/HEAD?labpath=2_analysis_of_HMD_pypam%2Fdata_analysis_with_pypam.ipynb)
-
-For dimension reduction notebook: 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ioos/soundcoop/HEAD?labpath=2_analysis_of_HMD_pypam%2Fdimension_reduction_and_clustering.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ioos/soundcoop/v0.0.1)
 
 
 ## Colab 

@@ -3,8 +3,8 @@
 
 ## Binder Installation
 To run the notebooks in this repository in *Binder*, click on the binder link below:
- 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ioos/soundcoop/HEAD)
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ioos/soundcoop/v0.0.1)
 
 ## Colab Installation
 To run the notebooks in this repository in *Google Colab*, click on the colab link below:
