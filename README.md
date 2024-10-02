@@ -78,6 +78,9 @@ To run any of this repository's notebooks (separately) on Google Colab, please f
 JupyterLab is a free browser-based software for interactive development and computing environment for notebooks
 * Provides access to computational environments and resources
 * Runs on the cloud or on your own hardware
+* Local environment: You can access local data. Requires python and jupyter installation
+* Free environment: You can't store your data. Has limited resources
+* Institution-based environment: You can store your data and have vastly expanded resources available. Not widely available to everyone
 * [Some info on JupyterLab 4.0 set up and environment](https://lwn.net/Articles/936340/)
 * [JupyterLab Desktop](https://github.com/jupyterlab/jupyterlab-desktop), which takes advantage of your local machine's memory allocations and processing capabilities
 
