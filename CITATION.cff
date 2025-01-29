@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: "SoundCoop Notebooks"
+message: "If you use this software, please cite it using the metadata from this file."
+type: "software"
+authors:
+  - family-names: Cline
+    given-names: Danelle
+    orcid: https://orcid.org/0000-0002-2599-6567
+  - family-names: Golden
+    given-names: Trevor
+    orcid: https://orcid.org/0000-0003-4138-9289
+  - family-names: Khazmutdinova
+    given-names: Karina
+    orcid: 
+  - family-names: Parcerisas
+    given-names: Clea
+    orcid: https://orcid.org/0000-0001-7466-0288
+  - family-names: Rueda
+    given-names: Carlos
+    orcid: https://orcid.org/0000-0002-5440-0638
+  - family-names: Ryan
+    given-names: John
+    orcid: 
+  - family-names: Stone
+    given-names: Brian
+    orcid: 
+version: 1.0.0
+identifiers:
+  - type: doi
+    value: 
+date-released: 
